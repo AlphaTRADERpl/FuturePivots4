@@ -3,8 +3,8 @@
 //|                                  Copyright 2022, FEARLESS SPIDER |
 //|                                         https://www.daxtrader.pl |
 //+------------------------------------------------------------------+
-#property copyright "Copyright 2022, FEARLESS SPIDER"
-#property link      "https://www.daxtrader.pl"
+#property copyright "Copyright, Spider's LAB OU"
+#property link      "https://www.alphatrader.pl"
 #property version   "1.00"
 #property strict
 #property indicator_chart_window
@@ -499,7 +499,7 @@ void LevelsDraw(int      shft,
       PlotRectangle(ChartID(),"BZ"+name,0,tmestrt,PP,tmend,M2,ColorBuyZone);
       if(future == true)
         {
-         draw_obj("CP","Copyright "+IntegerToString(TimeYear(TimeCurrent()))+", FEARLESS SPIDER",TaillePolice,ColorPP,4,NotesLocation_x+400,NotesLocation_y,NotesFont);
+         draw_obj("CP","Copyright "+IntegerToString(TimeYear(TimeCurrent()))+", Spider's LAB OU for AlphaTRADER",TaillePolice,ColorPP,4,NotesLocation_x+400,NotesLocation_y,NotesFont);
          draw_obj("tradingZone","Next Projected Buy Zone : "+DoubleToStr(PP,Digits)+" - "+DoubleToStr(M2,Digits),TaillePolice,ColorBuyZone,4,NotesLocation_x+400,NotesLocation_y+20,NotesFont);
         }
       PlotText(ChartID(),"R2L"+name,0,tmend,R2,"Bullish Profit Zone","Arial",10,ColorPP,ANCHOR_RIGHT_UPPER);
@@ -526,7 +526,7 @@ void LevelsDraw(int      shft,
       PlotRectangle(ChartID(),"SZ"+name,0,tmestrt,PP,tmend,M3,ColorSellZone);
       if(future == true)
         {
-         draw_obj("CP","Copyright "+IntegerToString(TimeYear(TimeCurrent()))+", FEARLESS SPIDER",TaillePolice,ColorPP,4,NotesLocation_x+400,NotesLocation_y,NotesFont);
+         draw_obj("CP","Copyright "+IntegerToString(TimeYear(TimeCurrent()))+", Spider's LAB OU for AlphaTRADER",TaillePolice,ColorPP,4,NotesLocation_x+400,NotesLocation_y,NotesFont);
          draw_obj("tradingZone","Next Projected Sell Zone : "+DoubleToStr(PP,Digits)+" - "+DoubleToStr(M3,Digits),TaillePolice,ColorSellZone,4,NotesLocation_x+400,NotesLocation_y+20,NotesFont);
         }
      }
