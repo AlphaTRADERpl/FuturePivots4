@@ -2,7 +2,7 @@
 
 > Daily, weekly, and monthly pivot points for MetaTrader 4 — with full support / resistance level projections and clean multi-timeframe overlay.
 
-![devenv usage](https://github.com/AlphaTRADERpl/FuturePivots5/blob/main/pivots.png?raw=true)
+![Future Pivots 5 on a live chart](https://github.com/AlphaTRADERpl/FuturePivots5/blob/main/pivots.png?raw=true)
 
 [![License: BSD-3-Clause](https://img.shields.io/badge/license-BSD--3--Clause-blue?style=flat-square)](LICENSE)
 [![Platform: MetaTrader 4](https://img.shields.io/badge/platform-MT4-orange?style=flat-square)](https://www.metatrader4.com)
